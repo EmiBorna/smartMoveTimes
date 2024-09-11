@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "DS-DIGIB";
+  src: url("fonts/DS-DIGIB.ttf") format("truetype");
+}
+
+/* Position the main div in the top-left */
+.main-column {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 20px;
+}
+
+/* Style for the inner columns */
+.inner-column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0.5em;
+}
+
+/* Make text areas non-resizable and non-scrollable */
+textarea {
+  resize: none;
+  overflow: hidden;
+  font-size: 2em;
+
+  display: flex;
+  margin-top: 5px; /* Space between title and textarea */
+  margin-bottom: 10px; /* Space between title and textarea */
+  width: 6.1em; /* Full width of its container */
+  height: 1.4em; /* Full viewport height */
+  box-sizing: border-box; /* Include padding and border in the width */
+  padding-left: 2px; /* Padding inside the textarea */
+  padding-right: 2px; /* Padding inside the textarea */
+  padding-bottom: 2px; /* Padding inside the textarea */
+  padding-top: 7px; /* Padding inside the textarea */
+  border: 1px solid #ccc; /* Border around the textarea */
+  border-radius: 4px; /* Rounded corners */
+  font-family: DS-DIGIB, suse;
+  text-align: center;
+  resize: none;
+  overflow: hidden;
+}
+
+/* Ensure the body takes full height */
+
+body {
+  margin: 0;
+  background: linear-gradient(to top left, #000000, #8b0909);
+  height: 100em;
+  display: flex;
+  justify-content: flex-start; /* Aligns content to the left */
+  background-color: #f0f0f0; /* Background color for contrast */
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  gap: 20px; /* Space between items */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners for the container */
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* Center text area horizontally */
+  width: 100%; /* Make sure the text area fits the container */
+}
+
+h2 {
+  margin: 0;
+  color: #ffffff; /* Title color */
+  font-family: roboto;
+}
