@@ -23,21 +23,21 @@
 textarea {
   resize: none;
   overflow: hidden;
-  font-size: 2em;
+  font-size: 1.5em;
 
   display: flex;
   margin-top: 5px; /* Space between title and textarea */
   margin-bottom: 10px; /* Space between title and textarea */
-  width: 6.1em; /* Full width of its container */
+  width: 8em; /* Full width of its container */
   height: 1.4em; /* Full viewport height */
   box-sizing: border-box; /* Include padding and border in the width */
   padding-left: 2px; /* Padding inside the textarea */
   padding-right: 2px; /* Padding inside the textarea */
   padding-bottom: 2px; /* Padding inside the textarea */
-  padding-top: 7px; /* Padding inside the textarea */
+  padding-top: 2px; /* Padding inside the textarea */
   border: 1px solid #ccc; /* Border around the textarea */
   border-radius: 4px; /* Rounded corners */
-  font-family: DS-DIGIB, suse;
+  font-family: suse;
   text-align: center;
   resize: none;
   overflow: hidden;
